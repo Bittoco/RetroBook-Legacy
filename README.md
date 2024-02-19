@@ -18,7 +18,8 @@ This code is distributed under the GNU General Public License v3.0. You can find
 ## Contributing
 
 As this project is no longer actively maintained, we are not accepting contributions or pull requests for this repository.
-Contact
+
+## Contact
 
 If you have any questions or concerns regarding Retrobook or our current portal, please reach out to us at [hello@bittoco.eu.org](mailto:hello@bittoco.eu.org).
 
