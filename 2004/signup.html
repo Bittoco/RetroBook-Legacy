@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The retro book | Welcome</title>
+</head>
+<body>
+	<center>
+<div class="header">
+	<h1 class="name">[ the retrobook ]</h1>
+<div class="headertext">
+	<a class="loginlink" href="login.php">login</a>&nbsp;&nbsp;&nbsp;<a class="signuplink" href="signup.php">register</a>&nbsp;&nbsp;&nbsp;<a class="aboutlink" href="about.php">about</a>
+</div>
+</div>
+<div class="welcome">
+	<p class="welcometext">Registration</p>
+	<div class="border">
+		<p class="desc">
+			To register for theretrobook.net, just fill in the four fields below. You will have a chance to <br>enter additional information and submit a picture once you have registered.
+		</p>
+		<p class="namee">Name:<br><br>Status:<br><br>Email:<br><br>Password*: (choose)</p>
+		<input class="nameinput" type="text"  name="name"><br>
+		<select class="status" name="status"><option>Visitor to the site</option><option>Student (Full-Time)</option><option>Student (Summer)</option>
+		<option>Grad Student</option>
+		</select>
+		<input type="email" name="email" class="emailsignup">
+		<input type="password" name="password" class="passsignup">
+	</div>
+</div>
+<div class="loginarea">
+		<input type="text" placeholder="Email:" class="email"><br><br><br>
+		<input type="password" placeholder="Password:" class="password">
+		<a href="login.php"><button class="loginalt">Login</button></a>   <a href="signup.php"><button class="signupalt">Register</button></a>
+	</div>
+	</center>
+</body>
+<style type="text/css">
+	.headertext {
+		position: relative;
+		top: -20px;
+		font-family: Tahoma,Verdana,Segoe,sans-serif;
+		color: white;
+		font-size: 12px;
+		left: 35px;
+		text-decoration: none;
+	}
+	.headertext:hover {
+		color: #77C9F3;
+	}
+	.loginlink {
+		color: white;
+		text-decoration: none;
+	}
+	.loginlink:hover {
+		color: #77C9F3;
+		text-decoration: underline;
+	}
+	.signuplink {
+		color: white;
+		text-decoration: none;
+	}
+	.signuplink:hover {
+		color: #77C9F3;
+		text-decoration: underline;
+	}
+	.aboutlink {
+		color: white;
+		text-decoration: none;
+	}
+	.aboutlink:hover {
+		color: #77C9F3;
+		text-decoration: underline;
+	}
+	@media only screen and (max-width:700px) {
+		.headertext {
+			top: -12px;
+			left: -65px;
+		}
+	}
+	.loginarea {
+		border: 1px dashed #3D65C2;
+		position: relative;
+		left: -280px;
+		width: 140px;
+		height: 170px;
+		top: -32px;
+	}
+	.loginalt {
+		position: relative;
+		top: 50px;
+		border-top-color: #D9DFEA;
+    	border-left-color: #D9DFEA;
+    	border-bottom-color: #3B5998;
+    	border-right-color: #3B5998;
+    	background-color: #3D65C2;
+    	color: white;
+    	font-family: Tahoma,Verdana,Segoe,sans-serif;;
+	}
+	.signupalt {
+		top: 50px;
+		position: relative;
+		border-top-color: #D9DFEA;
+    	border-left-color: #D9DFEA;
+    	border-bottom-color: #3B5998;
+    	border-right-color: #3B5998;
+    	background-color: #3D65C2;
+    	color: white;
+    	font-family: Tahoma,Verdana,Segoe,sans-serif;;
+	
+	}
+	.login {
+		position: relative;
+		left: 50px;
+		border-top-color: #D9DFEA;
+    	border-left-color: #D9DFEA;
+    	border-bottom-color: #3B5998;
+    	border-right-color: #3B5998;
+    	background-color: #3D65C2;
+    	color: white;
+    	font-family: Tahoma,Verdana,Segoe,sans-serif;;
+	}
+	.signup {
+		position: relative;
+		margin-left: -150px;
+		border-top-color: #D9DFEA;
+    	border-left-color: #D9DFEA;
+    	border-bottom-color: #3B5998;
+    	border-right-color: #3B5998;
+    	background-color: #3D65C2;
+    	color: white;
+    	font-family: Tahoma,Verdana,Segoe,sans-serif;;
+	}
+	.email {
+		position: relative;
+		width: 120px;
+		top: 10px;
+		font-family: Tahoma,Verdana,Segoe,sans-serif;
+	}
+	.password {
+		position: relative;
+		width: 120px;
+		top: -10px;
+		font-family: Tahoma,Verdana,Segoe,sans-serif;
+	}
+	@media only screen and (max-width:700px) {
+		.loginarea {
+			left: 310px;
+			height: 200px;
+			width: 180px;
+		}
+		.email {
+			left: px;
+			height: 20px;
+			top: 35px;
+
+		}
+		.password {
+			left: 25px;
+			height: 20px;
+			top: 35px;
+			position: absolute;
+			margin-top: 50px;
+			margin-left: 0px;
+		}
+		.loginalt {
+			top: 100px;
+			left: -30px;
+			height: 30px;
+			position: absolute;
+			margin-top: 50px;
+			margin-left: 55px;
+		}
+		.signupalt {
+			top: 70px;
+			left: -30px;
+			height: 30px;
+			position: absolute;
+			margin-top: 80px;
+			margin-left: 115px;
+		}
+	}
+	.header {
+		position: relative;
+		border: 1px solid #3B5999;
+		width: 700px;
+		background-color: #3D65C2;
+		background-image: url("banner3.png");
+		height: 90px;
+
+	}
+	.name {
+		position: relative;
+		left: 100px;
+		left: 120px;
+		color: #538BDE;
+		font-family: Tahoma,Verdana,Segoe,sans-serif;
+		font-size: 35px;
+		top: -px;
+	}
+	
+	.welcome {
+		position: relative;
+		font-family: Tahoma,Verdana,Segoe,sans-serif;
+		border: 1px solid #3D65C2;
+		background-color: #3D65C2;
+		width: 550px;
+		height: 30px;
+		margin-top: 10px;
+		left: 75px;
+	}
+	.welcometext {
+		color: white;
+		position: relative;
+		margin-top: 5px;
+		left: 5px;
+		text-align: left;
+	}
+	.border {
+		position: relative;
+		border: 1px solid lightgray;
+		height: 300px;
+		background-color: white;
+		top: -9px;
+		width: 550px;
+		left: -1px;
+		border-bottom: 2px solid #3D65C2;
+	}
+	.desc {
+		position: relative;
+		text-align: left;
+		left: 5px;
+		font-size: 13px;
+		width: 520px;
+	}
+	.namee {
+		font-size: 13px;
+		position: relative;
+		left: 100px;
+		top: 10px;
+		text-align: left;
+	}
+	.nameinput {
+		position: relative;
+		top: -115px;
+		left: 70px;
+		font-size: 12px;
+		height: 16px;
+		width: 200px;
+		font-family: Tahoma,Verdana,Segoe,sans-serif;
+	}
+	.status {
+		position: relative;
+		top: -107px;
+		left: 40px;
+		font-size: 12px;
+		height: 20px;
+		width: 150px;
+		font-family: Tahoma,Verdana,Segoe,sans-serif;
+	}
+	.emailsignup {
+		position: absolute;
+		margin-left: -110px;
+		margin-top: -75px;
+		font-size: 12px;
+		width: 200px;
+		font-family: Tahoma,Verdana,Segoe,sans-serif;
+	}
+	.passsignup {
+		position: absolute;
+		margin-left: -110px;
+		margin-top: -40px;
+		font-size: 12px;
+		width: 200px;
+		font-family: Tahoma,Verdana,Segoe,sans-serif;
+	}
+	@media only screen and (max-width:700px) {
+		.name {
+			left: -30px;
+			font-size: 25px;
+			margin-top: 30px;
+		}
+		.header {
+			width: 600px;
+		}
+		.welcome {
+			left: 0px;
+			width: 400px;
+			z-index: 2;
+		}
+		.welcometext {
+			margin-left: 5px;
+	}
+		.border {
+			height: 400px;
+			width: 400px;
+			top: -12px;
+		}
+		.desc {
+			width: 380px;
+		}
+		.login {
+			top: 30px;
+			height: 30px;
+		}
+		.signup {
+			top: 30px;
+			height: 30px;
+		}
+		
+
+	}
+</style>
+</html>

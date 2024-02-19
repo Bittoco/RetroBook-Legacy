@@ -1,0 +1,40 @@
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Composer files
+vendor/
+
+# Environment files
+.env
+
+# Configuration files
+config.php
+
+# Log files
+*.log
+error_log
+
+# FTP files
+.ftpquota
+
+# Assets
+videos/
+u/
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# *nix files
+.directory
+.Trash-*
