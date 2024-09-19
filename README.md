@@ -21,6 +21,6 @@ As this project is no longer actively maintained, we are not accepting contribut
 
 ## Contact
 
-If you have any questions or concerns regarding Retrobook or our current portal, please reach out to us at [hello@bittoco.eu.org](mailto:hello@bittoco.eu.org).
+If you have any questions or concerns regarding Retrobook or our current portal, please reach out to us at [hello@bittoco.net](mailto:hello@bittoco.net).
 
 Thank you for your understanding.
